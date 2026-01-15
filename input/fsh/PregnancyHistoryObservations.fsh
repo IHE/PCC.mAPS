@@ -629,7 +629,7 @@ Usage: #example
 Description: "The Example instance for the LaborRisk observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $loinc#14510-2
+* valueCodeableConcept = $loinc#32671-0
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -668,7 +668,7 @@ Usage: #example
 Description: "The Example instance for the DeliveryRisk observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $loinc#14510-2
+* valueCodeableConcept = $loinc#32671-0
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 

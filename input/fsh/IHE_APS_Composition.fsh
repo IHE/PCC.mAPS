@@ -14,7 +14,7 @@ and selected histories are provided. The Antepartum Summary represents a summary
 * status MS 
 * type MS
 * insert requireAtLeastOneMatch(type.coding, asummary, $loinc#57055-6 )
-* category 1..* MS 
+* category 1..*
 * insert requireAtLeastOneMatch(category, pstat, $loinc#90767-5)
 * subject 1..1 MS 
 * subject only Reference(https://profiles.ihe.net/ITI/PDQm/StructureDefinition/IHE.PDQm.Patient)
@@ -29,7 +29,7 @@ and selected histories are provided. The Antepartum Summary represents a summary
 * attester.party MS
 * custodian MS 
 * event MS 
-* insert requireAtLeastOneMatch(event.code, obs, http://terminology.hl7.org/CodeSystem/v3-ActCode#OBS)
+* insert requireAtLeastOneMatch(event.code, obs, http://terminology.hl7.org/CodeSystem/v3-ActCode|3.0.0#OBS)
 
 * section.code 1..1 MS  
 * section.code ^type.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips"

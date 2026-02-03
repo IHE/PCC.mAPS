@@ -78,7 +78,7 @@ Description: "The Example instance for the Antepartum Summary composition for ex
 
 * section[sectionVitalSigns]
   * title = "Vital signs note"
-  * code = $loinc#8716-3 "Vital signs"
+  * code = $loinc#8716-3 "Vital signs note"
   * entry[+] = Reference(ex-VitalSigns-BodyWeight)
   * text.status = #generated
   * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">body weight - 185 lbs , prepregnancy weight - 148 lbs</div>"

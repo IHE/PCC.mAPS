@@ -57,9 +57,9 @@ Description: "This value set includes the type of genetic-related risks identifi
 Id: Antepartum.Family.History.and.Genetic.Screening.VS
 * ^experimental = false
 * $sct#408856003   "Autism" 
-* $sct#414022008   "Disorder of cellular component of blood (disorder)" 
+* $sct#414022008   "Disorder of cellular component of blood" 
 * $sct#80544005   "Spongy degeneration of central nervous system" 
-* $sct#409709004   "Chromosomal disorder (disorder)" 
+* $sct#409709004   "Chromosomal disorder" 
 * $sct#13213009   "Congenital heart disease" 
 * $sct#190905008   "Cystic Fibrosis" 
 * $sct#276720006   "Dysmorphism" 
@@ -99,7 +99,7 @@ Description: "This value set identifies the infections that may result in risk t
 Id: Antepartum.History.of.Infection.VS
 * ^experimental = false
 * $sct#170464005   "Tuberculosis contact" 
-* $sct#402888002   "Primary herpes simplex infection of genitalia (disorder)" 
+* $sct#402888002   "Primary herpes simplex infection of genitalia" 
 * $sct#240480009   "Anogenital herpes simplex contact" 
 * $sct#49882001   "Viral exanthem" 
 * $sct#34014006   "Viral disease" 

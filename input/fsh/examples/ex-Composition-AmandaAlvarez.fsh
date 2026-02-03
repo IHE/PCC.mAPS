@@ -59,9 +59,9 @@ Description: "The Example instance for the Antepartum Summary composition for ex
   * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">past procedures - Education for smoking provided and Cephallic Version</div>"
 
 
-* section[sectionImmunizations]
+* section[sectionImmunizations] 
   * title = "Immunizations"
-  * code = $loinc#11369-6 "History of Immunization Narrative"
+  * code = $loinc#11369-6 "History of Immunization note"
   * entry = Reference(ex-Immunization-Vericella)
   * text.status = #generated
   * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Immunizations - Varicella</div>"
@@ -69,7 +69,7 @@ Description: "The Example instance for the Antepartum Summary composition for ex
 
 * section[sectionResults]
   * title = "Results"
-  * code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
+  * code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data note"
   * entry[+] = Reference(ex-AntepartumLabs)
   * entry[+] = Reference(ex-Antepartum-Genetic-Screening)
   * text.status = #generated
@@ -77,7 +77,7 @@ Description: "The Example instance for the Antepartum Summary composition for ex
 
 
 * section[sectionVitalSigns]
-  * title = "Vital Signs"
+  * title = "Vital signs note"
   * code = $loinc#8716-3 "Vital signs"
   * entry[+] = Reference(ex-VitalSigns-BodyWeight)
   * text.status = #generated
@@ -94,7 +94,7 @@ Description: "The Example instance for the Antepartum Summary composition for ex
 
 * section[PhysicalExams] 
   * title = "Physical Exams"
-  * code = $loinc#29545-1 "Physical findings Narrative"
+  * code = $loinc#29545-1 "Physical findings note"
   * entry = Reference(ex-PhysicalExam-AbdominalTenderness)
   * text.status = #generated
   * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">abdominal tenderness</div>"
@@ -102,7 +102,7 @@ Description: "The Example instance for the Antepartum Summary composition for ex
 
 * section[sectionPastIllnessHx]
   * title = "Past Illness History"
-  * code = $loinc#11348-0 "History of Past illness Narrative"
+  * code = $loinc#11348-0 "History of Past illness note"
   * text.status = #generated
   * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">none found</div>"
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable
@@ -151,7 +151,7 @@ Description: "The Example instance for the Antepartum Summary composition for ex
 
 * section[FamilyMedicalHistory]
   * title = "Family Medical History"
-  * code = $loinc#10157-6 "History of family member diseases Narrative"
+  * code = $loinc#10157-6 "History of family member diseases note"
   * entry[+] = Reference(ex-FamilyMemberHistory-AmandaAlvarez-Eve)
   * entry[+] = Reference(ex-FamilyMemberHistory-AmandaAlvarez-Alice)
   * text.status = #generated
@@ -160,7 +160,7 @@ Description: "The Example instance for the Antepartum Summary composition for ex
 
 * section[sectionAdvanceDirectives]
   * title = "Advance Directives"
-  * code = $loinc#42348-3 "Advance Directives"
+  * code = $loinc#42348-3 "Advance healthcare directives"
   * entry = Reference(ex-AdvanceDirectives-BloodTransfusion)
   * text.status = #generated
   * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">advance directve present</div>"

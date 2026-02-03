@@ -6,4 +6,3 @@ Alias: $StructureDefinition-Patient-uv-ips.html = https://hl7.org/fhir/uv/ips/St
 Alias: $referencerange-meaning = http://hl7.org/fhir/ValueSet/referencerange-meaning
 Alias: $2.16.840.1.113883.12.292 = https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.12.292
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
-

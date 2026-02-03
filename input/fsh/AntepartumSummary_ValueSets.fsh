@@ -89,7 +89,7 @@ Id: Antepartum.Review.of.Systems.Menstrual.History.VS
 * $sct#364306002   "Frequency of menstruation" 
 * $sct#289887006   "Finding of frequency of menstruation" 
 //* $sct#10036567   "On Birth Control Pills at conception" --- code no longer supported by SNOMED ct 
-* $sct#398700009   "Age at menarche (observable entity)" 
+* $sct#398700009   "Age at menarche" 
 * $sct#250423000   "Pregnancy test positive" 
 
 

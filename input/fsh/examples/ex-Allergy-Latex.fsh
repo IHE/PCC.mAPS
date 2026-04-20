@@ -10,7 +10,7 @@ Description: "The Example instance for the Allergy Intolerance - Latex"
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical#active
 * verificationStatus = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification#confirmed
 * category = #environment
-* code = $sct#111088007
+* code = $SCT#111088007
 * patient = Reference(Patient/ex-Patient-AmandaAlvarez)
 * recordedDate = "2015-08-06T15:37:31-06:00"
 * recorder = Reference(Practitioner/ex-Practitioner)

@@ -7,7 +7,7 @@ Usage: #example
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * status = #final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $sct#43478001 "Abdominal tenderness"
+* code = $SCT#43478001 "Abdominal tenderness"
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 * performer = Reference(Practitioner/ex-Practitioner)
 * effectivePeriod[+].start = "2018-04-02T10:30:10+01:00"

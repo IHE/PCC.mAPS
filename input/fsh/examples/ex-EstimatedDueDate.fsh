@@ -6,7 +6,7 @@ Usage: #example
 
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * status = #final
-* code = $loinc#11779-6	
+* code = $LOINC#11779-6	
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 * effectiveDateTime = "2019-07-15"
 * valueDateTime = "2024-04-15"

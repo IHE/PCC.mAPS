@@ -30,4 +30,4 @@ Description: "The Example instance for the IHE Advance Directives resource for b
 * verification.verifiedWith = Reference(Patient/ex-Patient-AmandaAlvarez)
 * verification.verificationDate = "2021-10-06T10:52:30-07:00"
 * provision.type = #permit
-* provision.code = $sct#116859006 
+* provision.code = $SCT#116859006 

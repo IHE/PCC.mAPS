@@ -8,7 +8,7 @@ each birth event associated with the pregnancy or shall conform to the birth eve
 """
 
 * status = http://hl7.org/fhir/observation-status#final 
-* code = $sct#118185001
+* code = $SCT#118185001
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -48,7 +48,7 @@ any other evidence of life such as heart beat.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11636-8
+* code = $LOINC#11636-8
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -88,7 +88,7 @@ Total number of children whose birth occurred through the end of the last day of
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11637-6
+* code = $LOINC#11637-6
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -128,7 +128,7 @@ Total number of children still living at time this record is generated.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11638-4
+* code = $LOINC#11638-4
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -168,7 +168,7 @@ Total number of children whose birth occurred after the beginning of the first d
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11639-2
+* code = $LOINC#11639-2
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -208,7 +208,7 @@ the number of times the uterus is emptied of a viable pregnancy.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11640-0
+* code = $LOINC#11640-0
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -249,7 +249,7 @@ data derived from assisted fertilization procedure].
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11612-9
+* code = $LOINC#11612-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -288,7 +288,7 @@ Number of intentional medical or surgical terminations of pregnancies before 20 
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11613-7
+* code = $LOINC#11613-7
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -327,7 +327,7 @@ Number of unintentional terminations of pregnancies before 20 weeks of gestation
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11614-5
+* code = $LOINC#11614-5
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -366,7 +366,7 @@ Number of Ectopic Pregnancies
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#33065-4
+* code = $LOINC#33065-4
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -406,7 +406,7 @@ Number of Stillborn Births
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#57062-2
+* code = $LOINC#57062-2
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -448,7 +448,7 @@ Total number of times the patient has been pregnant including the present pregna
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11996-6
+* code = $LOINC#11996-6
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -487,7 +487,7 @@ To document multiple pregnancy.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#45371-2
+* code = $LOINC#45371-2
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -525,7 +525,7 @@ Gestational age in weeks.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#49051-6 
+* code = $LOINC#49051-6 
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -563,7 +563,7 @@ The age of the conceptus, beginning from the time of fertilization. In clinical 
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11887-7
+* code = $LOINC#11887-7
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -604,7 +604,7 @@ Increased chance of harm during the period supporting the bringing forth of an o
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#42839-1
+* code = $LOINC#42839-1
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -629,7 +629,7 @@ Usage: #example
 Description: "The Example instance for the LaborRisk observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $loinc#32671-0
+* valueCodeableConcept = $LOINC#32671-0
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -643,7 +643,7 @@ Increased chance of harm during the period supporting the expulsion of an offspr
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#42840-9
+* code = $LOINC#42840-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -668,7 +668,7 @@ Usage: #example
 Description: "The Example instance for the DeliveryRisk observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $loinc#32671-0
+* valueCodeableConcept = $LOINC#32671-0
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -682,7 +682,7 @@ The date the mother’s last normal menstrual period began.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#8665-2 
+* code = $LOINC#8665-2 
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -721,7 +721,7 @@ The final number of weeks should be available in the OB admission H&P as the fir
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11778-8
+* code = $LOINC#11778-8
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -758,7 +758,7 @@ The estimated delivery date as determined based on the reported first day of the
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11779-6
+* code = $LOINC#11779-6
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -796,7 +796,7 @@ The estimated delivery date as determined based on the reported ovulation date.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11780-4
+* code = $LOINC#11780-4
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -833,7 +833,7 @@ The final number of weeks should be available in the OB admission H&P as the fir
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11884-4
+* code = $LOINC#11884-4
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -871,7 +871,7 @@ The final number of weeks should be available in the OB admission H&P as the fir
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11885-1
+* code = $LOINC#11885-1
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -908,7 +908,7 @@ The estimated delivery date as determined based on the reported ovulation date.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#11886-9
+* code = $LOINC#11886-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -946,7 +946,7 @@ The date a physician or other health care professional first examined and/or cou
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#69044-6
+* code = $LOINC#69044-6
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -983,7 +983,7 @@ Do not include visits for laboratory and other testing in which a physician or h
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#68493-6
+* code = $LOINC#68493-6
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1022,7 +1022,7 @@ Previous delivery by extracting the fetus, placenta, and membranes through an in
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#68496-9
+* code = $LOINC#68496-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1061,7 +1061,7 @@ The date of birth of the last live-born infant.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#68499-3
+* code = $LOINC#68499-3
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1098,7 +1098,7 @@ Previous delivery by extracting the fetus, placenta, and membranes through an in
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#68497-7
+* code = $LOINC#68497-7
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1139,7 +1139,7 @@ any of the listed outcomes. Perinatal death includes fetal and neonatal deaths.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#69043-8
+* code = $LOINC#69043-8
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1178,7 +1178,7 @@ The date (year) that the last pregnancy that did not result in a live birth ende
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#68500-8
+* code = $LOINC#68500-8
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1217,7 +1217,7 @@ Body Weight Measured before the current pregnancy
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#8348-5
+* code = $LOINC#8348-5
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1260,7 +1260,7 @@ MenstrualStatus Reported.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#8678-5
+* code = $LOINC#8678-5
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1295,7 +1295,7 @@ Regularity of menstrual cycle
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $sct#364307006
+* code = $SCT#364307006
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1335,7 +1335,7 @@ The date of the last menstral period
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $sct#21840007 
+* code = $SCT#21840007 
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1374,7 +1374,7 @@ Number of days typical for the patient’s menstrual flow
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $sct#364306002 	
+* code = $SCT#364306002 	
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1415,14 +1415,14 @@ Number of days between menstrual cycle periods.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $sct#289887006 	 	
+* code = $SCT#289887006 	 	
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
 //Confomrance Statment: The effective time element shall be present to indicate the interval of the pregnancy. 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #d
 //need confirmation this is the correct 
 * subject only Reference(Patient)
@@ -1458,7 +1458,7 @@ The patient age at the first occurrence of menstruation.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $sct#398700009 	 	
+* code = $SCT#398700009 	 	
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -1498,7 +1498,7 @@ Positive pregnancy test as determined by the presence of Human Chorionic Gonadot
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $sct#250423000	 	
+* code = $SCT#250423000	 	
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*

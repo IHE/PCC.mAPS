@@ -12,6 +12,7 @@ Usage: #example
 Description: "The Example instance for Antepartum Genetic Screening lab results"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* code = $sct#417357006
+* code = $SCT#417357006 "Sickling disorder due to hemoglobin S"
+* valueCodeableConcept = $SCT#416471007 "Family history of clinical finding"
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez) 

@@ -11,7 +11,7 @@ Usage: #example
 * status = http://hl7.org/fhir/request-status#active
 * intent = http://hl7.org/fhir/request-intent#plan
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez) "Amanda Alvarez"
-* category = $sct#735986004
+* category = $SCT#735986004
 * activity.reference = Reference(activity-3)
 * period.start = "2021-07-15"
 * period.end = "2022-04-20"
@@ -45,7 +45,7 @@ Instance: ex-careteam
 InstanceOf: CareTeam
 Description: "Example care team for the ex-birthpan element."
 Usage: #example
-* participant[0].role = $mysys#lmc
+* participant[+].role = $mysys#lmc
 * participant[=].role.text = "Midwife"
 * participant[=].member = Reference(Practitioner/pr1) "Mavis Midwife"
 * participant[+].role = $mysys#obs
@@ -70,7 +70,7 @@ Usage: #example
 * end = "2021-09-18T10:50:00+00:00"
 * requestedPeriod.start = "2021-09-18"
 * requestedPeriod.end = "2021-09-28"
-* participant[0].actor = Reference(Patient/ex-Patient-AmandaAlvarez) "Amanda Alvarez"
+* participant[+].actor = Reference(Patient/ex-Patient-AmandaAlvarez) "Amanda Alvarez"
 * participant[=].required = http://hl7.org/fhir/participantrequired#required
 * participant[=].status = http://hl7.org/fhir/participationstatus#accepted
 * participant[+].type = $v3-ParticipationType#ATND
@@ -86,7 +86,7 @@ Usage: #example
 * description = "The second antenatal encounter. Discuss any issues that arose from the first antenatal encounter"
 * requestedPeriod.start = "2021-10-12"
 * requestedPeriod.end = "2021-10-12"
-* participant[0].actor = Reference(Patient/ex-Patient-AmandaAlvarez) "Amanda Alvarez"
+* participant[+].actor = Reference(Patient/ex-Patient-AmandaAlvarez) "Amanda Alvarez"
 * participant[=].required = http://hl7.org/fhir/participantrequired#required
 * participant[=].status = http://hl7.org/fhir/participationstatus#accepted
 * participant[+].type = $v3-ParticipationType#ATND
@@ -102,7 +102,7 @@ Usage: #example
 * description = "The home delivery."
 * requestedPeriod.start = "2022-04-20"
 * requestedPeriod.end = "2022-04-20"
-* participant[0].actor = Reference(Patient/ex-Patient-AmandaAlvarez) "Amanda Alvarez"
+* participant[+].actor = Reference(Patient/ex-Patient-AmandaAlvarez) "Amanda Alvarez"
 * participant[=].required = http://hl7.org/fhir/participantrequired#required
 * participant[=].status = http://hl7.org/fhir/participationstatus#accepted
 * participant[+].type = $v3-ParticipationType#ATND

@@ -9,7 +9,7 @@ observations.
 """
 
 * status = http://hl7.org/fhir/observation-status#final 
-* code = $loinc#57061-4
+* code = $LOINC#57061-4
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -72,15 +72,15 @@ The estimated weight of the fetus observation performed using palpation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#57067-1
+* code = $LOINC#57067-1
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 // Note: system codes can be g, kg, lb_av, or oz_av
 * performer 1..*
-* method = $sct#129434008 "Palpation - action"
+* method = $SCT#129434008 "Palpation - action"
 
 Instance: ex-FetalBodyWeightPalpation
 InstanceOf: FetalBodyWeightPalpation
@@ -102,15 +102,15 @@ The estimated weight of the fetus observation performed using an ultrasound"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11727-5
+* code = $LOINC#11727-5
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 // Note: system codes can be g, kg, lb_av, or oz_av
 * performer 1..*
-* method = $sct#278292003 "Ultrasound imaging - action"
+* method = $SCT#278292003 "Ultrasound imaging - action"
 
 Instance: ex-FetalBodyWeightUltrasound
 InstanceOf: FetalBodyWeightUltrasound
@@ -132,12 +132,12 @@ Distance from the top of the symphysis pubis to the palpable superior border of 
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11881-0 
+* code = $LOINC#11881-0 
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #cm
 * performer 1..*
 
@@ -161,14 +161,14 @@ Fetal Presentation determined by palpation """
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11876-0
+* code = $LOINC#11876-0
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only CodeableConcept 
 * valueCodeableConcept from Fetal.Presentation.VS (extensible)
 * performer 1..*
-* method = $sct#129434008 "Palpation - action"
+* method = $SCT#129434008 "Palpation - action"
 
 Instance: ex-FetalPresentationPalpitation
 InstanceOf: FetalPresentationPalpitation
@@ -176,7 +176,7 @@ Usage: #example
 Description: "The Example instance for the Fetal Presentation Palpitation observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#6096002
+* valueCodeableConcept = $SCT#6096002
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -189,14 +189,14 @@ Fetal Presentation determined by ultrasound"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11877-8
+* code = $LOINC#11877-8
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only CodeableConcept 
 * valueCodeableConcept from Fetal.Presentation.VS (extensible)
 * performer 1..*
-* method = $sct#278292003 "Ultrasound imaging - action"
+* method = $SCT#278292003 "Ultrasound imaging - action"
 
 Instance: ex-FetalPresentationUltrasound
 InstanceOf: FetalPresentationUltrasound
@@ -204,7 +204,7 @@ Usage: #example
 Description: "The Example instance for the Fetal Presentation Palpitation observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#6096002
+* valueCodeableConcept = $SCT#6096002
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -217,15 +217,15 @@ Fetal Heart rate determined by ultrasound"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11948-7
+* code = $LOINC#11948-7
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #/min 
 * performer 1..*
-* method = $sct#278292003 "Ultrasound imaging - action"
+* method = $SCT#278292003 "Ultrasound imaging - action"
 
 Instance: ex-FetalHeartRateUltrasound
 InstanceOf: FetalHeartRateUltrasound
@@ -246,15 +246,15 @@ Fetal Heart rate determined by Auscultation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#57068-9
+* code = $LOINC#57068-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #/min 
 * performer 1..*
-* method = $sct#37931006 "Auscultation"
+* method = $SCT#37931006 "Auscultation"
 
 Instance: ex-FetalHeartRateAuscultation
 InstanceOf: FetalHeartRateAuscultation
@@ -275,7 +275,7 @@ Fetal Movement Reported"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#57088-7
+* code = $LOINC#57088-7
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -289,7 +289,7 @@ Usage: #example
 Description: "The Example instance for the Fetal Movement Reported observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#364755008
+* valueCodeableConcept = $SCT#364755008
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -302,7 +302,7 @@ Preterm labor symptoms"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#57069-7
+* code = $LOINC#57069-7
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -328,15 +328,15 @@ Cervical Canal External os Diameter by ultrasound"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11785-3
+* code = $LOINC#11785-3
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #cm 
 * performer 1..*
-* method = $sct#278292003 "Ultrasound imaging - action"
+* method = $SCT#278292003 "Ultrasound imaging - action"
 
 Instance: ex-CervicalCanalExternalosDiameterUltrasound
 InstanceOf: CervicalCanalExternalosDiameterUltrasound
@@ -357,15 +357,15 @@ Effacement observation of Cervix by Palpitation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11867-9
+* code = $LOINC#11867-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #% 
 * performer 1..*
-* method = $sct#129434008 "Palpation - action"
+* method = $SCT#129434008 "Palpation - action"
 
 Instance: ex-EffacementCervixPalpitation
 InstanceOf: EffacementCervixPalpitation
@@ -386,15 +386,15 @@ Cervix Length measured by ultrasound"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#11961-0
+* code = $LOINC#11961-0
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #cm
 * performer 1..*
-* method = $sct#278292003 "Ultrasound imaging - action"
+* method = $SCT#278292003 "Ultrasound imaging - action"
 
 Instance: ex-CervixLengthUltrasound
 InstanceOf: CervixLengthUltrasound
@@ -415,7 +415,7 @@ Albumin Presence In Urine observation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#1753-3
+* code = $LOINC#1753-3
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -429,7 +429,7 @@ Usage: #example
 Description: "The Example instance for the Albumin Presence In Urine observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#167273002
+* valueCodeableConcept = $SCT#167273002
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -442,7 +442,7 @@ Glucose Presence in Urine observation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#2349-9
+* code = $LOINC#2349-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -456,7 +456,7 @@ Usage: #example
 Description: "The Example instance for the glucose Presence In Urine observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#167273002
+* valueCodeableConcept = $SCT#167273002
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -469,7 +469,7 @@ Glucose Presence in Urine observation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#2349-9
+* code = $LOINC#2349-9
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -483,7 +483,7 @@ Usage: #example
 Description: "The Example instance for the glucose Presence In Urine observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#167273002
+* valueCodeableConcept = $SCT#167273002
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -496,7 +496,7 @@ Edema observation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#44966-0
+* code = $LOINC#44966-0
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -510,7 +510,7 @@ Usage: #example
 Description: "The Example instance for the Edema observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#420829009
+* valueCodeableConcept = $SCT#420829009
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -523,7 +523,7 @@ Pain Severity Reported observation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#38208-5
+* code = $LOINC#38208-5
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -536,7 +536,7 @@ Usage: #example
 Description: "The Example instance for the Pain Severity Reported observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $loinc#LA6112-2   "1"
+* valueCodeableConcept = $LOINC#LA6112-2   "1"
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -549,12 +549,12 @@ Date of Next Clinic Visit observation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#57070-5 
+* code = $LOINC#57070-5 
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 //Note: can be day, week, month
 * performer 1..*
 
@@ -577,7 +577,7 @@ Annotation Comment observation"""
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#exam
-* code = $loinc#48767-8 
+* code = $LOINC#48767-8 
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 

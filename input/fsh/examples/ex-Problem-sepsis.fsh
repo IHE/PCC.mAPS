@@ -6,9 +6,9 @@ Description: "The Example instance for the Problems - bacterial sepsis"
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active
 * verificationStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status#confirmed
-* category = $loinc#75326-9
-* severity = $sct#371924009
-* code = $sct#281158006
+* category = $LOINC#75326-9
+* severity = $SCT#371924009
+* code = $SCT#281158006
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 * encounter = Reference(Encounter/ex-Encounter)
 * onsetDateTime = "2023-01-02"
@@ -27,8 +27,8 @@ Usage: #example
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * status = #final 
 * category = http://terminology.hl7.org/CodeSystem/v2-0074#HM
-* code = $loinc#94554-3
+* code = $LOINC#94554-3
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 * encounter = Reference(Encounter/ex-Encounter)
 * performer = Reference(Practitioner/ex-Practitioner)
-* conclusionCode = $sct#10828004
+* conclusionCode = $SCT#10828004

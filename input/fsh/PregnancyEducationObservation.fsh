@@ -10,7 +10,7 @@ Any education provided to a patient relating to their pregnancy or birth plan (e
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#survey
-* code = $loinc#34895-3
+* code = $LOINC#34895-3
 * effective[x] 1..1
 * effective[x] only dateTime 
 * performer 1..*
@@ -33,6 +33,6 @@ Usage: #example
 Description: "The Example instance for the PregnancyEducationObservation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#54070000
+* valueCodeableConcept = $SCT#54070000
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)

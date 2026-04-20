@@ -8,7 +8,7 @@ The frequency of tobacco use. This may be measured in packs/day, packs/week, or 
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $sct#229819007	
+* code = $SCT#229819007	
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -44,7 +44,7 @@ Alcoholic drinks per day
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $loinc#74013-4
+* code = $LOINC#74013-4
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -80,7 +80,7 @@ Use of illegal drugs or prescription medications for non-medical purposes.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $sct#363908000
+* code = $SCT#363908000
 * effective[x] 1..1
 * effective[x] only dateTime 
 //APSOpenIssue_013:
@@ -112,12 +112,12 @@ Frequency of Physical Activity (days per week) and duration of physical activity
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $sct#256235009
+* code = $SCT#256235009
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
 * value[x] only Quantity
-* valueQuantity.system = $ucum
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #wk
 * subject only Reference(Patient)
 * device 0..0
@@ -149,7 +149,7 @@ The customary amount and kind of food and drink taken by a person from day to da
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $sct#364393001
+* code = $SCT#364393001
 * value[x] 1..1 
 * value[x] only CodeableConcept
 * subject only Reference(Patient)
@@ -168,7 +168,7 @@ Usage: #example
 Description: "The Example instance for the Diet observation"
 * status = http://hl7.org/fhir/observation-status#final
 * effectiveDateTime = "2021-10-06T10:52:30-07:00"
-* valueCodeableConcept = $sct#36823005
+* valueCodeableConcept = $SCT#36823005
 * performer = Reference(Practitioner/ex-Practitioner)
 * subject = Reference(Patient/ex-Patient-AmandaAlvarez)
 
@@ -182,7 +182,7 @@ Whether the patient has been exposed to a toxic substance.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $sct#425400000
+* code = $SCT#425400000
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -217,7 +217,7 @@ The state of having no home or permanent place of residence.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $loinc#98978-0
+* code = $LOINC#98978-0
 * effective[x] 1..1
 * effective[x] only dateTime 
 * value[x] 1..1 
@@ -252,7 +252,7 @@ At increased risk of domestic partner abuse.
 * category 1..1
 * status = http://hl7.org/fhir/observation-status#final
 * category = http://terminology.hl7.org/CodeSystem/observation-category#social-history
-* code = $sct#707087005
+* code = $SCT#707087005
 * effective[x] 1..1
 * effective[x] only dateTime 
 * subject only Reference(Patient)

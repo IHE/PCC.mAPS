@@ -30,8 +30,10 @@ The Content Creator and Content Consumer share the [APS content](StructureDefini
 
 ## 1:28.2 mAPS Actor Options
 
-Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies
+Options that may be selected for each actor in this implementation guide, are listed in Table 1:28.2-1 below. Dependencies
 between options when applicable are specified in notes.
+
+<p id ="t1:28;2-1" class="tableTitle"><strong>Table 1:28.2-1: Actor Options</strong></p>
 
 |     Actor        |      Option          |
 |------------------|----------------------|
@@ -141,13 +143,11 @@ Postcondition: The Pre-delivery H&P and Antepartum Summary with appropriate rela
 
 This section defines the actors and transactions in this implementation guide.
 
-Figure below shows the actors directly
-involved in the Antepartum Summary document exchange  
-Profile and the relevant transactions between them.
+The figure below shows the actors directly involved in the Mobile Antepartum Summary Profile and the relevant transactions between them.
 
 <figure>
 {%include ActorsAndTransactions.svg%}
-<figcaption><b>Figure 28.1-2: PCC Content Creator Content Consumer [PCC-01] Actor Diagram</b></figcaption>
+<figcaption><b>Figure 1:28.4.2.1-1: PCC Content Creator Content Consumer [PCC-01] Actor Diagram</b></figcaption>
 </figure>
 <br clear="all">
 
@@ -162,4 +162,4 @@ See ITI TF-2x: [Appendix Z.8 “Mobile Security Considerations”](https://profi
 
 ## 1:28.6 APS Cross-Profile Considerations
 
-The content defined in this profile can serve as source information for many pregancy related public health reporting and research efforts. Information from this profile may provide content to the Labor and Delivery Summary and may be a source for Birth and Fetal Death Reporting (BFDRE). 
+The content defined in this profile can serve as source information for many pregancy related public health reporting and research efforts. Information from this profile may provide content to the Labor and Delivery Summary (LDS) and may be a source for Birth and Fetal Death Reporting-Enhanced (BFDRE). 

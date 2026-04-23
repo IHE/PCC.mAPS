@@ -7,7 +7,7 @@ The Antepartum Summary represents a summary of the most critical information to 
 
 ### 3:XX.6.1 Format Code
 
-**TODO**
+** TODO **
 
 ### 3:XX.6.2 LOINC Code
 The LOINC code for this document is 57055-6 Antepartum summary

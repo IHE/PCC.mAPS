@@ -30,8 +30,10 @@ The Content Creator and Content Consumer share the [APS content](StructureDefini
 
 ## 1:28.2 mAPS Actor Options
 
-Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies
+Options that may be selected for each actor in this implementation guide, are listed in Table 1:28.2-1 below. Dependencies
 between options when applicable are specified in notes.
+
+<p id ="t1:28;2-1" class="tableTitle"><strong>Table 1:28.2-1: Actor Options</strong></p>
 
 |     Actor        |      Option          |
 |------------------|----------------------|
@@ -63,7 +65,7 @@ N/A
 
 <a name="overview"> </a>
 
-## 1:28.1 Overview
+## 1:28.4 Overview
 TBD
 This FHIR document inherits its composition from the [International Patient Summary](https://hl7.org/fhir/uv/ips/) and will have some dependencies on that Implementation guide. 
 
@@ -130,9 +132,7 @@ The following table informs the Pregnancy observations that are defined in this 
 
 ### 1:28.4.2 Use Cases
 
-## 1:28.2 Use Cases 
-
-### 1:28.2.1.1 Use case 1
+#### 1:28.4.2.1 Use Case 1
 Precondition: The patient’s obstetrician sees the patient for her pregnancy in the ambulatory (office) setting.  During the pregnancy, the patient is noted to have a medical problem requiring consultation with a Maternal-Fetal Medicine specialist (perinatologist).  The office obtains pre-authorization from the insurance payer for the consult, and for the intended or anticipated route of delivery, and transmits that information to both the consultant and to the hospital.  
 
 Events: The patient is seen in the obstetrician’s office where a complete medical and relevant social history are taken by the nurse and recorded in the office EHR, incorporating data from the perinatologist’s consultation report as appropriate. Laboratory and imaging reports ordered by the perinatologist as well as the perinatologist’s consultation report are displayed electronically to the obstetrician. The obstetrician reviews the consultation report from the perinatologist’s office and imaging studies ordered by the perinatologist along with data recorded by the nurse.  Physical exam reveals some abnormalities. The obstetrician orders additional laboratory studies, and sends the patient to the hospital to Labor and Delivery. 
@@ -143,25 +143,23 @@ Postcondition: The Pre-delivery H&P and Antepartum Summary with appropriate rela
 
 This section defines the actors and transactions in this implementation guide.
 
-Figure below shows the actors directly
-involved in the Antepartum Summary document exchange  
-Profile and the relevant transactions between them.
+The figure below shows the actors directly involved in the Mobile Antepartum Summary Profile and the relevant transactions between them.
 
 <figure>
 {%include ActorsAndTransactions.svg%}
-<figcaption><b>Figure 28.1-2: PCC Content Creator Content Consumer [PCC-01] Actor Diagram</b></figcaption>
+<figcaption><b>Figure 1:28.4.2.1-1: PCC Content Creator Content Consumer [PCC-01] Actor Diagram</b></figcaption>
 </figure>
 <br clear="all">
 
 
 <a name="security-considerations"> </a>
 
-## 1:X.5 mAPS Security Considerations
+## 1:28.5 mAPS Security Considerations
 
 See ITI TF-2x: [Appendix Z.8 “Mobile Security Considerations”](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
 
 <a name="other-grouping"> </a>
 
-## 28.6 APS Cross-Profile Considerations
+## 1:28.6 APS Cross-Profile Considerations
 
-The content defined in this profile can serve as source information for many pregancy related public health reporting and research efforts. Information from this profile may provide content to the Labor and Delivery Summary and may be a source for Birth and Fetal Death Reporting (BFDRE). 
+The content defined in this profile can serve as source information for many pregancy related public health reporting and research efforts. Information from this profile may provide content to the Labor and Delivery Summary (LDS) and may be a source for Birth and Fetal Death Reporting-Enhanced (BFDRE). 
